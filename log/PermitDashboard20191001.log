@@ -1,0 +1,41 @@
+07:00 AM
+Archiving current CSV data ... 
+Downloading data and updating AGO ... 
+
+Logged in as: mmurnane@ci.tacoma.wa.us_tacoma
+
+Starting time: Tue Oct  1 07:01:01 2019
+
+30 days before current date:  2019-09-01
+
+Downloading Issued Permit json data ...
+Download successful!
+
+Converting json to csv ...
+Done converting to CSV!
+
+Overwriting existing AGOL data ...
+
+Issued permit count: 713
+
+Stopping time: Tue Oct  1 07:01:36 2019
+
+Logged in as: mmurnane@ci.tacoma.wa.us_tacoma
+
+Starting time: Tue Oct  1 07:01:47 2019
+
+30 days before current date:  2019-09-01
+
+Downloading New Permit Applications json data ...
+Download successful!
+
+Converting json to csv ...
+Done converting to CSV!
+
+Overwriting existing AGOL data ...
+
+New applications count: 790
+
+Stopping time: Tue Oct  1 07:02:22 2019
+07:02 AM
+ See Tacoma Permit Dashboard for latest data - https://wspdsmap.cityoftacoma.org/website/PDS/PermitDashboard/ 
