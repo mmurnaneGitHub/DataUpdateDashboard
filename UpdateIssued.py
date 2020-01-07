@@ -22,7 +22,8 @@ import pandas as pd
 from pandas.io.json import json_normalize #package for flattening nested json in pandas df
 
 # Variables - https://www.urlencoder.org/
-permitsResourceId = "b40a095a-e03a-4b1c-a2cb-f999b3838e0b" #Changed 9/4/2019 - http://www.civicdata.com/dataset/mapdata_v2_17662/resource/b40a095a-e03a-4b1c-a2cb-f999b3838e0b
+#permitsResourceId = "b40a095a-e03a-4b1c-a2cb-f999b3838e0b" #Changed 9/4/2019 - http://www.civicdata.com/dataset/mapdata_v2_17662/resource/b40a095a-e03a-4b1c-a2cb-f999b3838e0b
+permitsResourceId = "9474d5f7-fac8-451a-8e48-93a9ae6d6077" #Changed 1/7/2020 - http://www.civicdata.com/dataset/mapdata_v3_17678/resource/9474d5f7-fac8-451a-8e48-93a9ae6d6077
 theFields = '%22Latitude%22,%22Longitude%22,%22Permit_Number%22,%22Description%22,%22Issued_Date%22,%22Current_Status%22,%22Address_Line_1%22,%22Address_Line_2%22,%22Zip%22,%22Permit_Type_Description%22,%22PermitType%22,%22Valuation%22,%22Link%22,%22Parcel_Number%22,%22Applicant_Name%22'
 theQuery = '%22%20where%20%22Latitude%22%20%3C%3E%27%27%20and%20%22Longitude%22%20%3C%3E%20%27%27and%20%22Issued_Date%22%20%3E%3D%0A%20%27' + (date.today()-timedelta(days=30)).isoformat() + '%27%20and%20%22PermitType%22%3C%3E%27Additional%20Services%27%20and%20%22PermitType%22%3C%3E%27Code%20Compliance%27%20and%20%22PermitType%22%3C%3E%27Documents%27'
 agoID = "599721cb350c45f2891adb4cbee3583d"  # AGO Permit Issued Last 30 Days
